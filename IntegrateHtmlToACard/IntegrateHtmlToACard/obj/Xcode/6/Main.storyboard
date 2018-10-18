@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Result:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5nZ-go-lzB">
+                                <rect key="frame" x="67" y="325" width="240" height="282"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cam-Cr-GI3">
+                                <rect key="frame" x="121" y="247" width="133" height="30"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="s4g-S2-tSq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="HtmlText">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bgS-Nm-WMg">
+                                <rect key="frame" x="67" y="64" width="240" height="168"/>
+                                <color key="backgroundColor" red="0.85098039219999999" green="0.85098039219999999" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="168" id="gGW-YC-zqN"/>
+                                </constraints>
+                                <mutableString key="text">&lt;div class="ck ck-content ck-editor__editable ck-rounded-corners ck-blurred ck-editor__editable_inline" contenteditable="true" role="textbox" aria-label="Rich Text Editor, main"&gt;&lt;h2&gt;The three greatest things you learn from traveling&lt;/h2&gt;&lt;p&gt;Like all the great things on earth traveling teaches us by example. Here are some of the most precious lessons I’ve learned over the years of traveling.&lt;/p&gt;&lt;figure class="media ck-widget" contenteditable="false"&gt;&lt;div class="ck-media__wrapper" data-oembed-url="https://www.youtube.com/watch?v=BLJ4GKKaiXw"&gt;&lt;div style="position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;"&gt;&lt;iframe src="https://www.youtube.com/embed/BLJ4GKKaiXw" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;h3&gt;Appreciation of diversity&lt;/h3&gt;&lt;p&gt;Getting used to an entirely different culture can be challenging. While it’s also nice to learn about cultures online or from books, nothing comes close to experiencing cultural diversity in person. You learn to appreciate each and every single one of the differences while you become more culturally fluid.&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;The real voyage of discovery consists not in seeking new landscapes, but having new eyes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Marcel Proust&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h3&gt;Improvisation&lt;/h3&gt;&lt;p&gt;Life doesn't allow us to execute every single plan perfectly. This especially seems to be the case when you travel. You plan it down to every minute with a big checklist; but when it comes to executing it, something always comes up and you’re left with your improvising skills. You learn to adapt as you go. Here’s how my travel checklist looks now:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;buy the ticket&lt;/li&gt;&lt;li&gt;start your adventure&lt;/li&gt;&lt;/ul&gt;&lt;figure class="image ck-widget image-style-side" contenteditable="false"&gt;&lt;img src="/assets/images/bg/umbrellas-e935d5c582.jpg" alt="Three Monks walking on ancient temple."&gt;&lt;figcaption class="ck-editor__editable ck-editor__nested-editable" contenteditable="true" data-placeholder="Enter image caption"&gt;Leaving your comfort zone might lead you to such beautiful sceneries like this one.&lt;/figcaption&gt;&lt;/figure&gt;&lt;h3&gt;Confidence&lt;/h3&gt;&lt;p&gt;Going to a new place can be quite terrifying. While change and uncertainty makes us scared, traveling teaches us how ridiculous it is to be afraid of something before it happens. The moment you face your fear and see there was nothing to be afraid of, is the moment you discover bliss.&lt;/p&gt;&lt;/div&gt;</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="bgS-Nm-WMg" secondAttribute="trailing" constant="52" id="C7o-2o-f57"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cam-Cr-GI3" secondAttribute="trailing" constant="105" id="H46-8d-p1Y"/>
+                            <constraint firstItem="5nZ-go-lzB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="Hf8-1Z-leP"/>
+                            <constraint firstItem="bgS-Nm-WMg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="L8t-9t-zOT"/>
+                            <constraint firstItem="bgS-Nm-WMg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="LQv-pu-RtU"/>
+                            <constraint firstItem="5nZ-go-lzB" firstAttribute="top" secondItem="Cam-Cr-GI3" secondAttribute="bottom" constant="48" id="R03-nb-DC2"/>
+                            <constraint firstItem="Cam-Cr-GI3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="105" id="XjF-dT-J5V"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5nZ-go-lzB" secondAttribute="bottom" constant="60" id="Z8P-8k-yY6"/>
+                            <constraint firstItem="Cam-Cr-GI3" firstAttribute="top" secondItem="bgS-Nm-WMg" secondAttribute="bottom" constant="15" id="ePS-Of-uGR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5nZ-go-lzB" secondAttribute="trailing" constant="52" id="nkS-e2-uLH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="convertTextButton" destination="Cam-Cr-GI3" id="2PC-Bg-RWw"/>
+                        <outlet property="resultFormatText" destination="5nZ-go-lzB" id="I8P-rV-jvi"/>
+                        <outlet property="textHtml" destination="bgS-Nm-WMg" id="gEi-19-69g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

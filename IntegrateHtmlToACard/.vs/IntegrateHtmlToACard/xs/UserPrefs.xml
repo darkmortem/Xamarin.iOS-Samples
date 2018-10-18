@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{744DC31E-23F1-4251-8B3B-5D1EDB9563BA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntegrateHtmlToACard/ViewController.cs">
+    <Files>
+      <File FileName="IntegrateHtmlToACard/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="IntegrateHtmlToACard/Main.cs" Line="1" Column="1" />
+      <File FileName="IntegrateHtmlToACard/ViewController.cs" Line="17" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IntegrateHtmlToACard" expanded="True">
+            <Node name="IntegrateHtmlToACard" expanded="True">
+              <Node name="ViewController.cs" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.IntegrateHtmlToACard PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.459603F9-4CFC-4C32-AF6C-52BB8FB17C03" FirstBuild="True">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.IntegrateHtmlToACard>
+</Properties>
